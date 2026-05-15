@@ -63,32 +63,43 @@ const Navbar = () => {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, x: '100%' }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: '100%' }}
-            transition={{ type: 'tween', duration: 0.4 }}
-            className="fixed inset-0 bg-luxury-dark/95 backdrop-blur-xl z-50 flex flex-col justify-center items-center"
+            initial={{ opacity: 0, y: '-100%' }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: '-100%' }}
+            transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+            className="fixed inset-0 bg-[#0a0a0a] z-[9999] flex flex-col justify-center items-center h-screen w-full"
           >
             <button
-              className="absolute top-6 right-6 text-luxury-softWhite hover:text-luxury-gold"
+              className="absolute top-8 right-8 text-luxury-gold hover:text-luxury-softWhite transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <X size={32} />
+              <X size={36} />
             </button>
-            <div className="flex flex-col items-center space-y-8">
+            
+            <div className="flex flex-col items-center space-y-12">
               {navLinks.map((link, index) => (
                 <motion.a
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 * index }}
+                  transition={{ delay: 0.1 * index + 0.2 }}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-2xl font-serif text-luxury-softWhite hover:text-luxury-gold tracking-widest uppercase"
+                  className="text-4xl font-serif text-luxury-softWhite hover:text-luxury-gold tracking-[0.2em] uppercase transition-all duration-300"
                 >
                   {link.name}
                 </motion.a>
               ))}
+              
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.8 }}
+                className="pt-12 flex flex-col items-center gap-4"
+              >
+                <div className="w-12 h-px bg-luxury-gold"></div>
+                <p className="text-luxury-gold/50 text-xs tracking-[0.5em] uppercase">TheCraftHouse</p>
+              </motion.div>
             </div>
           </motion.div>
         )}
