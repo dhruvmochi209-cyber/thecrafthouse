@@ -39,35 +39,35 @@ const Contact = () => {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center">
-              <div className="flex flex-col items-center group">
+              <a href="https://www.google.com/maps/search/?api=1&query=Om+Complex,+Main+Bajar,+Patan,+Gujarat" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center group cursor-pointer">
                 <div className="p-5 border border-white/10 rounded-full group-hover:border-luxury-gold transition-colors mb-6">
                   <MapPin className="text-luxury-gold" size={32} />
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Shop Location</h4>
-                  <p className="text-luxury-softWhite/50 font-light">17, 2nd floor, Om Complex , < br /> Main Bajar  <br />Patan-384265, Gujarat, India</p>
+                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">17, 2nd floor, Om Complex , < br /> Main Bajar  <br />Patan-384265, Gujarat, India</p>
                 </div>
-              </div>
+              </a>
 
-              <div className="flex flex-col items-center group">
+              <a href="tel:+919723375721" className="flex flex-col items-center group cursor-pointer">
                 <div className="p-5 border border-white/10 rounded-full group-hover:border-luxury-gold transition-colors mb-6">
                   <Phone className="text-luxury-gold" size={32} />
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Direct Line</h4>
-                  <p className="text-luxury-softWhite/50 font-light">+91 9723375721 , +91 9723572181 <br /> Vaghela Mittal</p>
+                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">+91 9723375721 , +91 9723572181 <br /> Vaghela Mittal</p>
                 </div>
-              </div>
+              </a>
 
-              <div className="flex flex-col items-center group">
+              <a href="mailto:thecrafthouse@gmail.com" className="flex flex-col items-center group cursor-pointer">
                 <div className="p-5 border border-white/10 rounded-full group-hover:border-luxury-gold transition-colors mb-6">
                   <Mail className="text-luxury-gold" size={32} />
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Email Inquiry</h4>
-                  <p className="text-luxury-softWhite/50 font-light">thecrafthouse@gmail.com</p>
+                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">thecrafthouse@gmail.com</p>
                 </div>
-              </div>
+              </a>
 
               <a href="https://www.instagram.com/_.thecrafthouse__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center group cursor-pointer">
                 <div className="p-5 border border-white/10 rounded-full group-hover:border-luxury-gold transition-colors mb-6">
