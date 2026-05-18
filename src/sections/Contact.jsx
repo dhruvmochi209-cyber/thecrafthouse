@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Shop Location</h4>
-                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">17, 2nd floor, Om Complex , < br /> Main Bajar  <br />Patan-384265, Gujarat, India</p>
+                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">thecrafthouse near new gujarat daing , om complex  <br />Patan-384265, Gujarat, India</p>
                 </div>
               </a>
 
@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Direct Line</h4>
-                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">+91 9723375721 , +91 9723572181 <br /> Vaghela Mittal</p>
+                  <p className="text-luxury-softWhite/50 font-light group-hover:text-luxury-gold transition-colors">+91 9723375721 <br /> +91 9723572181 <br /> Vaghela Mittal</p>
                 </div>
               </a>
 
