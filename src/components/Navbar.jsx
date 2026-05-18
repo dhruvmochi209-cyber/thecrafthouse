@@ -98,7 +98,7 @@ const Navbar = () => {
                 className="pt-12 flex flex-col items-center gap-4"
               >
                 <div className="w-12 h-px bg-luxury-gold"></div>
-                <p className="text-luxury-gold/50 text-xs tracking-[0.5em] uppercase">TheCraftHouse</p>
+                <a href="https://www.instagram.com/_.thecrafthouse__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="text-luxury-gold/50 text-xs tracking-[0.5em] uppercase hover:text-luxury-gold transition-colors">TheCraftHouse</a>
               </motion.div>
             </div>
           </motion.div>
