@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-luxury-softWhite mb-2 text-xl">Direct Line</h4>
-                  <p className="text-luxury-softWhite/50 font-light">+91 9723375721 , +91 9664845190 <br /> Vaghela Mittal</p>
+                  <p className="text-luxury-softWhite/50 font-light">+91 9723375721 , +91 9723572181 <br /> Vaghela Mittal</p>
                 </div>
               </div>
 
