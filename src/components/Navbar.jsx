@@ -31,7 +31,7 @@ const Navbar = () => {
         }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#home" className="text-2xl md:text-3xl font-serif text-luxury-gold tracking-widest font-bold">
+        <a href="https://www.instagram.com/_.thecrafthouse__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="text-2xl md:text-3xl font-serif text-luxury-gold tracking-widest font-bold">
           TheCraftHouse<span className="text-luxury-softWhite"></span>
         </a>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
             >
               <X size={36} />
             </button>
-            
+
             <div className="flex flex-col items-center space-y-12">
               {navLinks.map((link, index) => (
                 <motion.a
@@ -90,8 +90,8 @@ const Navbar = () => {
                   {link.name}
                 </motion.a>
               ))}
-              
-              <motion.div 
+
+              <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8 }}
