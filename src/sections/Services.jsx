@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Scissors, Star, Gem, Crown, Feather, Settings, Award, PenTool } from 'lucide-react';
+import { PenTool, Sparkles, Feather, Scissors, Grid, Crown, Hexagon, Package } from 'lucide-react';
 
 const servicesList = [
   {
@@ -8,12 +8,12 @@ const servicesList = [
     desc: "Intricate traditional and modern embroidery techniques tailored to your design vision."
   },
   {
-    icon: <Settings size={32} className="text-luxury-gold" />,
+    icon: <Sparkles size={32} className="text-luxury-gold" />,
     title: "Fancy Heavy  Choli Latkan",
     desc: "Bespoke handcrafted latkans to elevate the elegance of your bridal and ethnic wear."
   },
   {
-    icon: <Gem size={32} className="text-luxury-gold" />,
+    icon: <Feather size={32} className="text-luxury-gold" />,
     title: "Fancy Tassels ( Saree Resa ) ",
     desc: "Handcrafted saree tassels designed with elegance and intricate detailing to add a luxurious finishing touch to every drape."
   },
@@ -23,7 +23,7 @@ const servicesList = [
     desc: "Premium lace and heavy decorative materials crafted to enhance bridal, designer, and traditional outfits with rich elegance and style."
   },
   {
-    icon: <Star size={32} className="text-luxury-gold" />,
+    icon: <Grid size={32} className="text-luxury-gold" />,
     title: "Khat Work",
     desc: "Authentic aari and khat work performed by master craftsmen on traditional frames."
   },
@@ -33,12 +33,12 @@ const servicesList = [
     desc: "Personalized embellishments to make your bridal ensemble truly one-of-a-kind."
   },
   {
-    icon: <Award size={32} className="text-luxury-gold" />,
+    icon: <Hexagon size={32} className="text-luxury-gold" />,
     title: "Mirror Work ",
     desc: "Beautiful handcrafted mirror work designed with intricate patterns and sparkling details to create a vibrant and traditional ethnic look."
   },
   {
-    icon: <Feather size={32} className="text-luxury-gold" />,
+    icon: <Package size={32} className="text-luxury-gold" />,
     title: "Materials",
     desc: "Beautiful handcrafted mirror work designed with intricate patterns and sparkling details to create a vibrant and traditional ethnic look "
   }
